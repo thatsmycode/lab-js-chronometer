@@ -53,7 +53,9 @@ class Chronometer {
   }
 
   split() {
+ 
     let timeString = this.computeTwoDigitNumber(this.getMinutes())+":"+this.computeTwoDigitNumber(this.getSeconds());
+  
     return timeString;
   }
 }
